@@ -9,6 +9,10 @@ class ToDoService {
     }
   }
 
+  login(email, password) {
+    return email === 'klaus' && password === '123'
+  }
+
   create (newToDo) {
     let todo = {
       id: 'ToDo' + new Date().getTime(),
