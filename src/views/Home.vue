@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     onLogin (event) {
-       console.debug('onLogin', event, this.viewModel)
+      console.debug('onLogin', event, this.viewModel)
       if (ToDoService.login(this.viewModel.login.email, this.viewModel.login.password)) {
         // if the user is logged in, we forward to the 'List' screen.
         this.viewModel.login.error = ''
