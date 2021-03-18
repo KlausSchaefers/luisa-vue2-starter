@@ -3,7 +3,7 @@ Example how to use vue-low-cde
 
 Try out at https://klausschaefers.github.io/vue-low-code-example/#/
 
-To lgin use the following credentials:
+To login use the following credentials:
  - email: klaus
  - password: 123
 
