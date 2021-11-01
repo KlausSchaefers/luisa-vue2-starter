@@ -1,4 +1,4 @@
 module.exports = {
-  outputDir: 'docs',
+  outputDir: 'build',
   publicPath: process.env.NODE_ENV === 'production' ? '/vue-low-code-example/' : '/'
 }

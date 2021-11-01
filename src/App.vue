@@ -11,14 +11,14 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-height: 100%;
+  height: 100%;
 }
 
 html,
 body,
 .home{
   height: 100%;
-  background: #ececec;
+  background: #fff;
 }
 
 </style>
