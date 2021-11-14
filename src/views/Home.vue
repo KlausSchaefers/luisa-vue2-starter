@@ -21,7 +21,7 @@ export default {
       },
       config: {
         debug: {
-          logLevel: 10
+          logLevel: 5
         }
       }
     }
@@ -29,6 +29,9 @@ export default {
   components: {
   },
   methods: {
+    onHomeLoaded () {
+      console.debug("On Home loaded")
+    }
   }
 }
 </script>
