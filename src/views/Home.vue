@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Luisa design="a2aa10atOYDU8XLBz2n3pTiJEjCsyY728M5hyCAD6UC8c7pDeyDkPpMAYC26" v-model="viewModel" :config="config"/>
+    <Luisa :design="design" v-model="viewModel" :config="config"/>
   </div>
 </template>
 <style lang="scss">
@@ -12,12 +12,17 @@ import Vue from "vue";
 import Luisa from 'luisa-vue'
 Vue.use(Luisa);
 
+import '@mdi/font/css/materialdesignicons.css'
+
+import app from './app.json'
+
 export default {
   name: 'Home',
   data: function () {
     return {
+      design: app,
       viewModel: {
-        max: 2     
+        myimage: 2     
       },
       config: {
         debug: {
@@ -29,9 +34,6 @@ export default {
   components: {
   },
   methods: {
-    onHomeLoaded () {
-      console.debug("On Home loaded")
-    }
   }
 }
 </script>

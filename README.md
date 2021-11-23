@@ -19,12 +19,24 @@ After you can start the server
 npm run server
 ```
 
-For more infor check the VUE-CLI
-
 
 # Develop
 
 Check out the `src/views/home.vue` file. This initialized the Luisa and also uses the <Luisa> component.
+
+# Quant-UX icons 
+
+If you need icon support:
+
+```bash
+npm install @mdi/font
+```
+
+and add the import to the Home.vue file
+
+```JavaScript
+import '@mdi/font/css/materialdesignicons.css'
+```
 
 # Documentation
 
