@@ -1,6 +1,6 @@
 {
   "name": "luisa-vue2-starter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -28,8 +28,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "luisa-util": "^1.0.4",
-    "node-sass": "^4.14.1",
+    "luisa-util": "^1.0.6",
+    "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.14"
   }
