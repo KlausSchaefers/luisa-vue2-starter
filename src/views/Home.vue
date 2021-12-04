@@ -22,18 +22,19 @@ export default {
     return {
       design: app,
       viewModel: {
-        myimage: 2     
+        name: '',
+        result: ''
       },
       config: {
-        debug: {
-          logLevel: 5
-        }
       }
     }
   },
   components: {
   },
   methods: {
+    sayHello () {
+      this.viewModel.result = "Hello " + this.viewModel.name
+    }
   }
 }
 </script>
