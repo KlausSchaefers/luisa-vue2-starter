@@ -12,7 +12,7 @@
   "dependencies": {
     "@mdi/font": "^6.5.95",
     "core-js": "^3.6.4",
-    "luisa-vue": "^2.0.10",
+    "luisa-vue": "^2.0.12",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.14",
     "vue-router": "^3.1.6"
